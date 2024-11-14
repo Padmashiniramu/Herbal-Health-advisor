@@ -15,6 +15,23 @@ neutral.
  - Sentiment classification powered by Bayes classification and TextBlob.
  - Prediction module that selects algorithms based on accuracy.
  - Evaluation module using iterative processes for dataset training.
+🏗️ ## Project Structure
+```
+Herbal-Health-Advisor/
+├── data/
+│ ├── raw_data/
+│ ├── processed_data/
+├── models/
+│ ├── supervised/
+│ ├── unsupervised/
+├── src/
+│ ├── frontend/
+│ ├── backend/
+├── tests/
+├── README.md
+├── requirements.txt
+└── setup.py
+```
 ## Project Modules
 1. **Data Collection**: Collects user-generated comments from forums, blogs, and social 
 networks using APIs.
@@ -23,7 +40,8 @@ for analysis.
 3. **Sentiment Classification**: Categorizes user feedback into positive, negative, or neutral 
 sentiments.
 4. **Machine Learning Algorithms**:
- - **Supervised Learning**: Classification and regression models for accurate predictions.
+ - **Supervised Learning**: Classification and regression models for accurate predictions.'
+
  - **Unsupervised Learning**: Clustering with K-means to group similar data points.
 5. **Prediction and Evaluation**: Optimizes algorithm accuracy and continually improves 
 predictions through dataset training.
