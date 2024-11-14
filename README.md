@@ -1,6 +1,11 @@
 # 🌿 Herbal Health Advisor
-A comprehensive web application designed to provide natural remedies for common health 
-symptoms. The Herbal Health Advisor offers users information on herbal treatments, along 
-with user-friendly options for viewing remedies in both Tamil and English. Additionally, it 
-features a sentiment analysis system to collect and analyze feedback using machine learning 
-and artificial intelligence techniques.
+## 📝 Overview
+The Herbal Health Advisor is a web-based application that provides natural, plant-based remedies based on user-inputted symptoms. Designed with both Tamil and English language support, the platform leverages fuzzy logic and machine learning to analyze user feedback and refine recommendations.
+## Features
+- **Symptom Input**: Users can enter symptoms to receive herbal remedy suggestions.
+- **Language Support**: Remedies are displayed in both Tamil and English for accessibility.
+- **Plant Remedies with Images**: Detailed information on each plant remedy, including 
+images, to help users identify and understand treatments.
+- **Sentiment Analysis**: Feedback is collected and analyzed using Natural Language 
+Processing (NLP) and machine learning to categorize sentiment as positive, negative, or 
+neutral.
