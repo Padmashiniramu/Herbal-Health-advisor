@@ -15,7 +15,8 @@ neutral.
  - Sentiment classification powered by Bayes classification and TextBlob.
  - Prediction module that selects algorithms based on accuracy.
  - Evaluation module using iterative processes for dataset training.
-🏗️ ## Project Structure
+ - 
+##🏗️ Project Structure
 ```
 Herbal-Health-Advisor/
 ├── data/
