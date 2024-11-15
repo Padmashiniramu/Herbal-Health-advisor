@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>LOGIN PAGE</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
+        <style>
+            body{
+                background-image: url('../static/ani4.jpeg');
+               
+            }
+        </style>
+    </head>
+    <body>
+        <div class="login-form">
+            <center><h1>Log In</h1><hr/></center><br/>
+            <input type="email" id="name" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <div class="remember-me">
+              <input type="checkbox" id="remember">
+              <label for="remember">Remember me</label>
+            </div><br/>
+            <div class="forgot-password">
+                <button  onclick="window.location.href ='{{ url_for('content') }}';">Log In</button>
+                <button onclick="window.location.href ='{{ url_for('home') }}';">Back</button> <br/><br/>
+                <a href="{{ url_for('sign') }}">Forgot Password?</a>
+            </div>
+          </div>
+        
+    </body>
+</html>
