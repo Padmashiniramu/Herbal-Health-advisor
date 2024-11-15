@@ -95,10 +95,9 @@ Contributions are welcome! Please follow these steps:
 3. Commit your changes (`git commit -m 'Add feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a Pull Request.
+   
 ## UI Design
-```bash
-https://www.figma.com/proto/mKPB6rzTy1W84v6ggHBmIc/HERBAL-HEALTH-ADVISOR?type=design&node-id=10-8&t=jhLjq7iFMc2bqXXP-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=10%3A8&show-proto-sidebar=1&mode=design
-```
-## 📜License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for 
-details
+
+[UI Design Link](https://www.figma.com/proto/mKPB6rzTy1W84v6ggHBmIc/HERBAL-HEALTH-ADVISOR?type=design&node-id=10-8&t=jhLjq7iFMc2bqXXP-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=10%3A8&show-proto-sidebar=1&mode=design)
+
+
