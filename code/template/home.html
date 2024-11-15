@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>home page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+    </head>
+    <body>
+        <header>       
+            <div class="container">
+                <div class="logo">  
+                    <img src="../static/logo.png" alt="Small Pic" class="small-pic">
+                    <h1>Traditional Medicine Recommendation System </h1>
+                </div>
+                <div class="auth-buttons">
+                    <button onclick="window.location.href ='{{ url_for('login') }}';" class="login">Log in</button>
+                    <button onclick="window.location.href ='{{ url_for('sign') }}';" class="sign-up">Sign up</button>
+                </div>
+            </div>
+        </header><BR/>
+        <h1 class="animated animated-text">
+            <img src="../static/pic3.png"  class="left-pic">
+            <img src="../static/pic2.png"  class="left1-pic">
+              <span class="mr-2">Welcome to TMRS !!</span><BR/> <BR/> 
+                <div class="animated-info">
+                    <span class="animated-item">Text your symptoms</span>
+                    <span class="animated-item">Use this app in your language as well</span>
+                    <span class="animated-item">Tell us about your symptoms</span>
+                 </div>
+          </h1> 
+          <div class="left"><BR/> <BR/><BR/> <BR/><BR/> <BR/><BR/><BR/>
+            <p>Empower yourself with our Traditional Medicine Recommendation System! 
+                Easily input your symptoms through text or speech, 
+                and receive personalized recommendations of medicinal plants. 
+                Accessible in multiple languages,
+                our system enhances healthcare accessibility and 
+                promotes natural healing for everyone.</p>
+        </div>
+        <img src="../static/pic1.png" class ="img1">
+    </body>
+</html>
