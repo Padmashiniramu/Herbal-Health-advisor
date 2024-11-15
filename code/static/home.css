@@ -1,0 +1,154 @@
+body{
+  background-color: #e2f2e2;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  height:55px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  
+}
+
+header .logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  position: relative;
+  margin-left: 100px;
+  top:20px;
+}
+
+
+header .auth-buttons {
+  display: flex;
+  position: relative;
+  top:20px;
+}
+
+header .auth-buttons button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+header .auth-buttons button:hover {
+  background-color: #fff;
+  color: #333;
+}
+.animated {
+position: relative;
+text-align: center;
+}
+
+.animated-info {
+display: inline-block;
+vertical-align: top;
+margin-top: 5px;
+min-width: 260px;
+position: relative;
+}
+
+.animated-item {
+  color: #ffc200;
+  font-size: 34px;
+  line-height: inherit;
+  display: block;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: -30%; 
+  width: 170%;
+  animation: BottomTotop 6s linear infinite 0s;
+}
+
+.animated-item:nth-child(2n+2) {
+animation-delay: 2s;
+}
+.animated-item:nth-child(3n+3) {
+animation-delay: 4s;
+}
+@keyframes BottomTotop {
+0% {
+  opacity: 0;
+}
+5% {
+  opacity: 0;
+  transform: translateY(5px);
+}
+10% {
+  opacity: 1;
+  transform: translateY(0px);
+}
+25% {
+  opacity: 1;
+  transform: translateY(0px);
+}
+30% {
+  opacity: 0;
+  transform: translateY(5px);
+}
+80% {
+  opacity: 0;
+}
+100% {
+  opacity: 0;
+}
+}
+.left{
+  position: absolute;
+  left: 2%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+  font-size: 24px;
+  color: #333;
+  text-align: left;
+  max-width: 80%;
+  padding: 20px;
+  line-height: 1.7;
+}
+.img1{
+  position: relative;
+  top: -100px;
+  width:39%;
+  left:60%;
+}
+
+.small-pic {
+  position: absolute;
+  top: 10px; /* Adjust top position as needed */
+  left: 20px;
+  z-index: 1;
+  width: 100px; 
+  height: 90px; 
+}
+.left-pic {
+  position: absolute;
+  top: -50px;
+  left: 20px;
+  width: 250px; 
+  height: 200px; 
+}
+.left1-pic {
+  position: absolute;
+  top: 90px;
+  left: 290px;
+  width: 290px; 
+  height: 200px; 
+}
+
